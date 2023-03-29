@@ -9,13 +9,17 @@
 <h2>Documentação do código LojaApi</h2>
 Este documento fornece as informações necessárias para executar o código da API da Loja, que gerencia as categorias dos produtos. A API foi escrita em C# usando o framework Microsoft ASP.NET Core e o Entity Framework Core para acesso aos dados. O código fornece as seguintes funcionalidades:
 
+<ul>
 *POST - Adiciona uma nova categoria
 *GET - Retorna a lista de todas as categorias
 *DELETE - Exclui uma categoria
-Pré-requisitos
+</ul>
+<h3>Pré-requisitos</h3>
+<ul>
 Visual Studio (2019 ou superior)
 .NET Core SDK (3.1 ou superior)
 Banco de dados SQL Server
+</ul>  
 Configuração
 Clone o repositório do código
 Abra a solução LojaApi.sln no Visual Studio
