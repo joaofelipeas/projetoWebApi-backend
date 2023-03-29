@@ -17,22 +17,25 @@
 </ul>
 <h3>Pré-requisitos</h3>
 <ul>
-Visual Studio (2019 ou superior)
-.NET Core SDK (3.1 ou superior)
-Banco de dados SQL Server
+  <li>Visual Studio (2019 ou superior)</li>
+  <li>.NET Core SDK (3.1 ou superior)</li>
+  <li>Banco de dados SQL Server</li>
 </ul>  
-Configuração
-Clone o repositório do código
-Abra a solução LojaApi.sln no Visual Studio
-Crie um novo banco de dados no SQL Server
-Configure a conexão com o banco de dados no arquivo appsettings.json
-No Package Manager Console, execute o comando Update-Database para criar as tabelas no banco de dados
-Pressione F5 para executar o projeto
-Endpoints
-POST /categorias
-Este endpoint adiciona uma nova categoria ao banco de dados. O corpo da solicitação deve ser um objeto JSON com os seguintes campos:
+<h2>Configuração</h2>
+<ol>
+  <li>Clone o repositório do código</li>
+  <li>Abra a solução LojaApi.sln no Visual Studio</li>
+  <li>Crie um novo banco de dados no SQL Server</li>
+  <li>Configure a conexão com o banco de dados no arquivo appsettings.json</li>
+  <li>No Package Manager Console, execute o comando Update-Database para criar as tabelas no banco de dados</li>
+  <li>Pressione F5 para executar o projeto</li>
+<ol>  
+  <h2>Endpoints</h2>
+  <h3>POST /categorias</h3>
+<div>Este endpoint adiciona uma nova categoria ao banco de dados. O corpo da solicitação deve ser um objeto JSON com os seguintes campos:</div>
 
-Nome (string) - O nome da categoria
-DataCadastro (datetime) - A data de cadastro da categoria
-Departamento (string) - O departamento da categoria
-
+  <ul>
+    <li>Nome (string) - O nome da categoria</li>
+    <li>DataCadastro (datetime) - A data de cadastro da categoria</li>
+    <li>Departamento (string) - O departamento da categoria</li>
+  </ul>
