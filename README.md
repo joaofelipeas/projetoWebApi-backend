@@ -7,8 +7,9 @@
 ----
 
 <h2>Documentação do código LojaApi</h2>
-Este documento fornece as informações necessárias para executar o código da API da Loja, que gerencia as categorias dos produtos. A API foi escrita em C# usando o framework Microsoft ASP.NET Core e o Entity Framework Core para acesso aos dados. O código fornece as seguintes funcionalidades:
 
+  <div>Este documento fornece as informações necessárias para executar o código da API da Loja, que gerencia as categorias dos produtos. A API foi escrita em C# usando   o framework Microsoft ASP.NET Core e o Entity Framework Core para acesso aos dados. O código fornece as seguintes funcionalidades:
+  </div>
 <ul>
   <li>POST - Adiciona uma nova categoria</li>
   <li>GET - Retorna a lista de todas as categorias</li>
