@@ -5,8 +5,8 @@
   Projeto de Desenvolvimento de uma Web API com DOTNET 6 utilizando o VSCode. Criado em 2 pastas diferentes projetoWebAPI-backend / projetoWebApi-frontend. Utilizando Microsoft Entity Framework Core(Design/InMemory) para salvar os dados no Banco de Dados em um banco em memória. Foram utilizadas os métodos Post, Get e Delete.
 
 ----
-<div>
-  <h2>Documentação do código LojaApi</h2>
+
+<h2>Documentação do código LojaApi</h2>
 Este documento fornece as informações necessárias para executar o código da API da Loja, que gerencia as categorias dos produtos. A API foi escrita em C# usando o framework Microsoft ASP.NET Core e o Entity Framework Core para acesso aos dados. O código fornece as seguintes funcionalidades:
 
 *POST - Adiciona uma nova categoria
@@ -30,4 +30,4 @@ Este endpoint adiciona uma nova categoria ao banco de dados. O corpo da solicita
 Nome (string) - O nome da categoria
 DataCadastro (datetime) - A data de cadastro da categoria
 Departamento (string) - O departamento da categoria
-</div>
+
