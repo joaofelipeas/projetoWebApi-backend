@@ -31,10 +31,8 @@
     <li>Pressione F5 para executar o projeto</li>
   <ol>  
 <h2>Endpoints</h2>
-  <h3>POST /categorias</h3>
-
+<h3>POST /categorias</h3>
 <div>Este endpoint adiciona uma nova categoria ao banco de dados. O corpo da solicitação deve ser um objeto JSON com os seguintes campos:</div>
-
   <ul>
     <li>`Nome` (string) - O nome da categoria</li>
     <li>`DataCadastro` (datetime) - A data de cadastro da categoria</li>
