@@ -1,8 +1,8 @@
 # projetoWebApi-backend
 
-### Projeto Web: .NET 6 Web API + HTML + CSS + JS
+### <h1>Projeto Web: .NET 6 Web API + HTML + CSS + JS</h1>
 
-  Projeto de Desenvolvimento de uma Web API com DOTNET 6 utilizando o VSCode. Criado em 2 pastas diferentes projetoWebAPI-backend / projetoWebApi-frontend. Utilizando Microsoft Entity Framework Core(Design/InMemory) para salvar os dados no Banco de Dados em um banco em memória. Foram utilizadas os métodos Post, Get e Delete.
+  <strong>Projeto de Desenvolvimento de uma Web API com DOTNET 6 utilizando o VSCode. Criado em 2 pastas diferentes projetoWebAPI-backend / projetoWebApi-frontend. Utilizando Microsoft Entity Framework Core(Design/InMemory) para salvar os dados no Banco de Dados em um banco em memória. Foram utilizadas os métodos Post, Get e Delete.</strong>
 
 ----
 
@@ -45,3 +45,38 @@
   <img src="https://user-images.githubusercontent.com/104281444/228407235-0ccd1ca0-24fc-40e3-b292-d00298e6ea0d.jpg" width="700"/>
 </div>
 </p>
+<p>Exemplo de resposta:</p>
+<p> 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/104281444/228407235-0ccd1ca0-24fc-40e3-b292-d00298e6ea0d.jpg" width="700"/>
+</div>
+</p>
+<p>GET /categorias</p>
+<p>Este endpoint retorna a lista de todas as categorias no banco de dados.</p>
+<p>Exemplo de resposta:</p>
+<p>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/104281444/228410506-a890e3b3-e579-4fc2-bb0f-7ab65513bf02.jpg" width="700"/>
+</div>
+</p>
+<p>DELETE /categorias/{id}</p>
+<p>Este endpoint exclui a categoria com o ID especificado do banco de dados.</p>
+<p>Exemplo de solicitação:</p>
+<p>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/104281444/228411634-67c809ad-9402-46b2-b2d6-603ac1484081.jpg" width="700"/>
+</div>
+</p>
+<p>Exemplo de resposta:</p>
+<p>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/104281444/228411858-bed67ad6-40a5-4997-be0f-acca590c6455.jpg" width="700"/>
+</div>
+</p>
+<h2>Vulnerabilidades</h2>
+<p>O código apresenta algumas vulnerabilidades que podem ser exploradas por um invasor mal-intencionado:</p>
+<ul>
+<li>Falta de autenticação e autorização: qualquer pessoa pode acessar os endpoints da API sem autenticação ou autorização, o que pode permitir ações não autorizadas no banco de dados.</li>
+<li>Injeção de SQL: os parâmetros do SQL não são sanitizados corretamente, permitindo que um invasor mal-intencionado injete código SQL para executar ações não autorizadas no banco de dados.</li>
+  <li>Validação</li>
+</ul>
