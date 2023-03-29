@@ -8,8 +8,8 @@
 
 <h2>Documentação do código LojaApi</h2>
 
-  <div>Este documento fornece as informações necessárias para executar o código da API da Loja, que gerencia as categorias dos produtos. A API foi escrita em C# usando   o framework Microsoft ASP.NET Core e o Entity Framework Core para acesso aos dados. O código fornece as seguintes funcionalidades:
-  </div>
+  <p>Este documento fornece as informações necessárias para executar o código da API da Loja, que gerencia as categorias dos produtos. A API foi escrita em C# usando   o framework Microsoft ASP.NET Core e o Entity Framework Core para acesso aos dados. O código fornece as seguintes funcionalidades:
+  </p>
   <ul>
     <li>POST - Adiciona uma nova categoria</li>
     <li>GET - Retorna a lista de todas as categorias</li>
@@ -32,9 +32,10 @@
   <ol>  
 <h2>Endpoints</h2>
 <h3>POST /categorias</h3>
-<div>Este endpoint adiciona uma nova categoria ao banco de dados. O corpo da solicitação deve ser um objeto JSON com os seguintes campos:</div>
+<p>Este endpoint adiciona uma nova categoria ao banco de dados. O corpo da solicitação deve ser um objeto JSON com os seguintes campos:</p>
   <ul>
     <li>`Nome` (string) - O nome da categoria</li>
     <li>`DataCadastro` (datetime) - A data de cadastro da categoria</li>
     <li>`Departamento` (string) - O departamento da categoria</li>
   </ul>
+
