@@ -6,7 +6,7 @@
 
 ----
 
-<h2>Documentação do código LojaApi</h2>
+<h1>Documentação do código LojaApi</h1>
 
   <p>Este documento fornece as informações necessárias para executar o código da API da Loja, que gerencia as categorias dos produtos. A API foi escrita em C# usando   o framework Microsoft ASP.NET Core e o Entity Framework Core para acesso aos dados. O código fornece as seguintes funcionalidades:
   </p>
@@ -15,7 +15,7 @@
     <li>GET - Retorna a lista de todas as categorias</li>
     <li>DELETE - Exclui uma categoria</li>
   </ul>
-<h3>Pré-requisitos</h3>
+<h2>Pré-requisitos</h2>
   <ul>
     <li>Visual Studio (2019 ou superior)</li>
     <li>.NET Core SDK (3.1 ou superior)</li>
@@ -31,11 +31,17 @@
     <li>Pressione F5 para executar o projeto</li>
   <ol>  
 <h2>Endpoints</h2>
-<h3>POST /categorias</h3>
+<p>POST /categorias</p>
 <p>Este endpoint adiciona uma nova categoria ao banco de dados. O corpo da solicitação deve ser um objeto JSON com os seguintes campos:</p>
   <ul>
     <li>`Nome` (string) - O nome da categoria</li>
     <li>`DataCadastro` (datetime) - A data de cadastro da categoria</li>
     <li>`Departamento` (string) - O departamento da categoria</li>
   </ul>
-
+</br>
+<p>Exemplo de solicitação:</p>
+<p> 
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/104281444/228407235-0ccd1ca0-24fc-40e3-b292-d00298e6ea0d.jpg" width="700"/>
+</div>
+</p>
