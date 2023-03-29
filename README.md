@@ -10,9 +10,9 @@
 Este documento fornece as informações necessárias para executar o código da API da Loja, que gerencia as categorias dos produtos. A API foi escrita em C# usando o framework Microsoft ASP.NET Core e o Entity Framework Core para acesso aos dados. O código fornece as seguintes funcionalidades:
 
 <ul>
-*POST - Adiciona uma nova categoria
-*GET - Retorna a lista de todas as categorias
-*DELETE - Exclui uma categoria
+-POST - Adiciona uma nova categoria
+-GET - Retorna a lista de todas as categorias
+-DELETE - Exclui uma categoria
 </ul>
 <h3>Pré-requisitos</h3>
 <ul>
